@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Finding the percenatge.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="itertoolscombinations_with_replacement%28iterable, r%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="List_comprehensions.py" />
     <Compile Include="Nested_Lists.py">
       <SubType>Code</SubType>
