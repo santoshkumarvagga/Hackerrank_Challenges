@@ -40,6 +40,9 @@
     <Compile Include="Runner_up_score.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="String Formatting.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Text Alignment.py">
       <SubType>Code</SubType>
     </Compile>
