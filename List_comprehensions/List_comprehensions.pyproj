@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Decorators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Find a string.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Finding the percenatge.py">
       <SubType>Code</SubType>
     </Compile>
@@ -32,6 +38,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Runner_up_score.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Text Alignment.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Text Wrap.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
