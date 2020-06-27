@@ -1,3 +1,4 @@
+#Attacker wrote note after thieving. he got doubt of sensing his handwriting. so he finds a magazine and tries to replace the complete words only from magazine to note in any order.
 inp = input('enter 2 int').split()
 mag_len = inp[0]
 note_len = int(inp[1])
@@ -5,8 +6,8 @@ note_len = int(inp[1])
 mag_list = input('enter mag string').split() #S1, S3
 note_list = input('enter note string').split() #S2, S4
 
-print(mag_list)
-print(note_list)
+#print(mag_list)
+#print(note_list)
 
 mag_dict = {} #S5
 note_dict = {} #S5
@@ -25,21 +26,21 @@ for j in note_list:
 
 Count = 0 
 
-print(note_dict)
-print(mag_dict)
+#print(note_dict)
+#print(mag_dict)
 
 for key, values in note_dict.items():
 	for k,v in mag_dict.items():
-		print("key and k are:", key,k)
-		print("values and v are:", values,v)
+		#print("key and k are:", key,k)
+		#print("values and v are:", values,v)
 		if key == k:
-			print("Matched Key is :", key)
+			#print("Matched Key is :", key)
 			if values <= v:
-				print("Matched values is :", values)
+				#print("Matched values is :", values)
 				Count = Count + 1
 
-print('Length of note_len', note_len)
-print("Count is :", Count)
+#print('Length of note_len', note_len)
+#print("Count is :", Count)
 if Count == note_len:
 	print('Yes')
 else:

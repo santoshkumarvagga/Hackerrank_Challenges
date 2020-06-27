@@ -1,0 +1,21 @@
+Find maximum common substring in all given n strings.
+
+Algorithm:
+step 1: n = int(input('enter n for total pairs'))
+step 2: x = [], add each string to x. (total 2*n strings)
+step 3: max_sub_len = 0
+step 4: max_len_string = 0
+step 5: for i in l:
+			if len(i)>max_len_string:
+				max_len_string = len(i)
+				big_str = i
+step 6: def gen():
+			for i in l:
+				yield i
+		a = gen()
+step 6: for i in range(len(big_str)-1):
+			for j in range(1, len(big_str)-2):
+				if big_str[i:j+1] in next(a):
+					if len(big_str[i,j+1]) > max_sub_len:
+						max_sub_len = big_str[i,j+1]
+step 7: print(big_str)
