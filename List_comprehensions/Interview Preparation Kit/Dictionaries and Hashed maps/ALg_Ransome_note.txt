@@ -1,0 +1,21 @@
+Every word in note must be a proper substring of any word in magazine alon with matching case sensitivity.
+
+Algorithm:
+step 1: mag = input('enter magzine words')
+step 2: note = input('enter notes words')
+step 3: mag_list=mag.split()
+step 4: note_list=note.split()
+step 5: mag_dict = {} and note_dict = {}
+step 6: for i in mag_list:
+			if i in mag_dict:
+				increase count of i in mag_dict
+			else:
+				add new item in mag_dict with key as i
+step 7: for j in note_list:
+			if j in note_dict:
+				increase count of j in note_dict
+			else:
+				add new item in note_dict with key as j
+step 8: Now, for each key in note_dict, check whether that key is present in mag_dict and matches case sensitivity(if note_dict[key] == mag_dict[key])=> True, if yes, check whether value of that key in mag_dict >= value of the key in note_dict.if no, goto step 9 else goto step 10
+step 9: declare No and exit
+step 10: declare yes and exit

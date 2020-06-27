@@ -30,6 +30,9 @@
     <Compile Include="Finding the percenatge.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Interview Preparation Kit\Dictionaries and Hashed maps\Ransom Note.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="itertoolscombinations_with_replacement%28iterable, r%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -49,6 +52,13 @@
     <Compile Include="Text Wrap.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interview Preparation Kit\" />
+    <Folder Include="Interview Preparation Kit\Dictionaries and Hashed maps\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Interview Preparation Kit\Dictionaries and Hashed maps\ALg_Ransome_note.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
