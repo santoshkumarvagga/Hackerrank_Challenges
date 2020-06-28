@@ -1,0 +1,18 @@
+#LCS (without Optimisation)
+Algorithm:
+
+step 1: X = input('enter first string')
+step 2: Y = input('enter second string')
+step 3: a = len(X), b=len(Y)
+step 4: rows, columns = (a,b)
+step 5: tab = [[-1]*b]*a 
+step 6: recursive equation:
+			def func(X,Y,i,j):
+				X = X[:i+1]
+				Y = Y[:j+1]
+				if i==0 or j==0:
+					return 0
+				if X[i] == Y[j]:
+					return 1+func(X,Y,i-1,j-1)
+				return max(func(X,Y,i-1,j),func(X,Y,i,j-1))
+step 7: print("The LCS is: ", func(X,Y,a,b))

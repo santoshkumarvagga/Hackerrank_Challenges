@@ -1,0 +1,24 @@
+Dynamic Programming:
+
+* It is very much similar to Divide & Conquer, but does not re-calculate pre-calculated values as it stores them in a table for later use.
+
+* It is called Dynamic because at each stage of function call, we check whether this function call has been made previously or not. If yes, take the value from table. Else, Execute the function call.
+
+* So, Its basically an Optimisation Technique for Algoritms that take Exponential time(2^n), which reduces it to Polynomial time.
+
+* NOTE: Not all problems can be solved using dynamic programming.
+
+* For any Problem to apply DP, 3 conditons should satisfy:
+
+	- Optimal Substructure: If a Problem can be divided into smaller sub-problems such that the optimal solution to the sub-problems are part of the optimal solution of the entire problem. Then, Such an approach is called Optimal Substructure.
+
+	- Recursive Equation: If Optimal Substructurs exists, then recursive equation for the answer can also be derived easily.
+
+	- Overlapping Subproblems: If sub-problems identified in Optimal Sub-structure, happens to be calculated over and again in the calculation process, then we say it Overlalpping Subproblems.
+
+* To overcome this Problem of calculating a solution for already encountered sub-problem again and again in the calculation process, We use 2 approaches:
+
+	- Tabulation Process - We store the Values in to table upon first time calculation of the value.
+	- Memoization -
+
+* In Dynamic programming problems, Time Complexity is the number of unique states/subproblems * time taken per state. In this problem, for a given n, there are n unique states/subproblems. ... Hence the time complexity is O(n ) or linear. This is the power of dynamic programming.
