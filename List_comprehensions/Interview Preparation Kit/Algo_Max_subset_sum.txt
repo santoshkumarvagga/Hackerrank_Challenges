@@ -1,0 +1,17 @@
+Algorithm:
+
+step 1: a = []
+step 2: n = int(input().strip())
+step 3: for _ in range(n):
+			a.append(int(input().strip()))
+step 4: ask for sum S for which we need subset
+			S=input('enter S').strip()
+step 5: Recursive eqn->func():
+		def c(i,S):
+			if i==0 and S!=0:
+				return False
+			if S==0:
+				return True
+			if S < c[i]:
+				return c(i-1,S)
+			return c(i-1,S) or c(i-1,S-a)
