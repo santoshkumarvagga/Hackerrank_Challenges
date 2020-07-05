@@ -31,6 +31,9 @@
     <Compile Include="Finding the percenatge.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Interview Preparation Kit\5integerssumpy.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Interview Preparation Kit\Basics_of_class.py">
       <SubType>Code</SubType>
     </Compile>
