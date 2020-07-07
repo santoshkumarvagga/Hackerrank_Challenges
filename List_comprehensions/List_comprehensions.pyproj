@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="arrays\Left_array_rotation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Decorators.py">
       <SubType>Code</SubType>
     </Compile>
@@ -75,6 +78,7 @@
   <ItemGroup>
     <Folder Include="Interview Preparation Kit\" />
     <Folder Include="Interview Preparation Kit\Dictionaries and Hashed maps\" />
+    <Folder Include="arrays\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Interview Preparation Kit\Algo_LCS.txt" />
